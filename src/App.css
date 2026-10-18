@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1351px;
+    box-sizing: border-box;
+}
+
+@theme {
+    --color-primary: #23A6F0;
+    --color-secondary: #252B42;
+    --color-thirdly: #737373;
+}
+
+header {
+    background: linear-gradient(90deg, #FFF 26.59%, rgba(255, 255, 255, 0.00) 100.84%), url(../src/assets/herobg.png) lightgray 50% / cover no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
